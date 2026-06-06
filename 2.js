@@ -1,6 +1,17 @@
 (function () {
     'use strict';
 
+
+(function () {
+    $('body').append(`
+        <style>
+            .icon--history{
+                display: none !important;
+            }
+        </style>
+    `);
+})();
+
     // Регистрируем плагин
     if (!window.Lampa) return;
 
